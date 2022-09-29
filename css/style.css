@@ -39,7 +39,18 @@ body {
 }
 #header .fixed-top{
     box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /15%);
+    
 }
 #header .navbar-toggler:focus{
     box-shadow: none;
 }
+#slider .carousel-caption h5{
+    color: rgb(255, 255, 255);
+    position: relative;
+    
+    font-size: 70px;
+    border-bottom-style: ridge;
+    font-weight: bold;
+    border-bottom-color: #82c434;
+    text-transform: uppercase;
+  }

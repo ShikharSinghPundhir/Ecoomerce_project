@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>E-commerce Bootstrap</title>
@@ -26,7 +27,7 @@
 <body>
 	<!-- Navigation Section Start -->
 	<section id="header">
-		<nav class="navbar navbar-expand-lg bg-white fixed-top">
+		<nav class="navbar navbar-expand-lg  fixed-top" style="background: rgb(38, 181, 191);">
 			<div class="container">
 				<a class="navbar-brand" href="#">
 					<!-- <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="headerimg w-25"> -->
@@ -68,51 +69,55 @@
 	<!-- Home Section Start -->
 	<section class="home">
 		<!--slider div start-->
-		<div class="carousel slide" data-bs-ride="carousel" id="a">
-
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#a" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#a" data-bs-slide-to="2"></button>
+		<section id="slider">
+			<div class="row mt-5">
+				<div class="col-md-1">
+	
+				</div>
+					<div class="col-md-10">
+						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+							<div class="carousel-indicators">
+							  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							</div>
+							<div class="carousel-inner">
+							  <div class="carousel-item active h-75">
+								<img src="https://i.gadgets360cdn.com/large/5g_internet_pixabay_1655940268189.jpg?downsize=950:*" class="d-block w-100 " alt="...">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5>5G Services</h5>
+								  <p>Rollout Expected 'Very Soon', Aiming for Pan-India Coverage in 2 years, IT Minister Says</p>
+								</div>
+							  </div>
+							  <div class="carousel-item h-75">
+								<img src="https://i.gadgets360cdn.com/large/Bitcoin_new_september_unsplash_large_1664175335643.jpg?downsize=950:*" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5>Bitcoin</h5>
+								  <p>Remains Below $19,000 as Ether, Other Altcoins Continue Slide Over the Weekend</p>
+								</div>
+							  </div>
+							  <div class="carousel-item h-75">
+								<img src="https://i.gadgets360cdn.com/large/iphone_14_pro_max_camera_1663665783464.jpg?downsize=950:*" class="d-block w-100 h-75" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5>iPhone 14</h5>
+								  <p>Becomes Latest Smartphone to Be Manufactured by Apple in India</p>
+								</div>
+							  </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						  </div>
+					</div>
+				
 			</div>
-
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="4000">
-
-					<img src="https://burst.shopifycdn.com/photos/shipping-boxes-in-front-of-red-brick.jpg?width=925&format=pjpg&exif=1&iptc=1" class="w-100" alt="...">
-					<div class="carousel-caption">
-						<h1>PNINFOYS gwalior</h1>
-					</div>
-					<!--carousel-caption-->
-				</div>0
-				<div class="carousel-item" data-bs-interval="2000">
-
-					<img src="https://burst.shopifycdn.com/photos/balm-in-tin.jpg?width=925&format=pjpg&exif=1&iptc=1" class="w-100"
-						alt="...">
-					<div class="carousel-caption">
-						<h1>PNINFOYS gwalior</h1>
-					</div>
-					<!--carousel-caption-->
-				</div>1
-				<div class="carousel-item" data-bs-interval="2000">
-
-					<img src="https://burst.shopifycdn.com/photos/modern-time-pieces.jpg?width=373&format=pjpg&exif=1&iptc=1" class="w-100"
-						alt="...">
-					<div class="carousel-caption">
-						<h1>PNINFOYS gwalior</h1>
-					</div>
-					<!--carousel-caption-->
-				</div>2
-			</div>
-			<!--carousel-inner-->
-
-			<button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</button>
-		</div>
+			
+		</section>
 		<!--slider div end-->
 		<!-- Offer section  -->
 		<div class="offers">
